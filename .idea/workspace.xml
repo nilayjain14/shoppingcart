@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e6a394-bae9-4bca-9ad5-6fb5caed35ad" name="Default Changelist" comment="" />
+    <list default="true" id="45e6a394-bae9-4bca-9ad5-6fb5caed35ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jainn/shopping/BuyXItemGetYItemFreeOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jainn/shopping/IOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jainn/shopping/NoOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jainn/shopping/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jainn/shopping/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jainn/shopping/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jainn/shopping/ShoppingCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jainn/model/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jainn/service/ShoppingCartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jainn/service/ShoppingCartServiceTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,42 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/model/ShoppingCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jainn/service/ShoppingCartServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#313#327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/service/ShoppingCartService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="300">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,19 +41,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/jainn/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/constant/ApplicationConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/com/jainn/price/ProductPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jainn/model/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/model/CartOffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jainn/service/ShoppingCartService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jainn/service/ShoppingCartServiceTest.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/service/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/service/IOffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/service/NoOffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/service/BuyXItemGetYItemFreeOffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jainn/service/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jainn/service/ShoppingCartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jainn/shopping/ShoppingCartTest.java" />
       </list>
     </option>
   </component>
@@ -104,19 +99,83 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingcart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551524932752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560541900137" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/jainn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jainn.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,48 +189,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingCartServiceTest">
-    <configuration name="ShoppingCartServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShoppingCartTest">
+    <configuration name="ShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shoppingcart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jainn.service.*" />
+          <option name="PATTERN" value="com.jainn.shopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jainn.service" />
-      <option name="MAIN_CLASS_NAME" value="com.jainn.service.ShoppingCartServiceTest" />
+      <option name="PACKAGE_NAME" value="com.jainn.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.jainn.shopping.ShoppingCartTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartServiceTest.addMultiProductsToShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartTest.addDifferentProductsAndAppyOfferToTheCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shoppingcart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jainn.service.*" />
+          <option name="PATTERN" value="com.jainn.shopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jainn.service" />
-      <option name="MAIN_CLASS_NAME" value="com.jainn.service.ShoppingCartServiceTest" />
-      <option name="METHOD_NAME" value="addMultiProductsToShoppingCartTest" />
+      <option name="PACKAGE_NAME" value="com.jainn.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.jainn.shopping.ShoppingCartTest" />
+      <option name="METHOD_NAME" value="addDifferentProductsAndAppyOfferToTheCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartServiceTest.addProductsToShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartTest.addDifferentProductsToTheCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shoppingcart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jainn.service.*" />
+          <option name="PATTERN" value="com.jainn.shopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jainn.service" />
-      <option name="MAIN_CLASS_NAME" value="com.jainn.service.ShoppingCartServiceTest" />
-      <option name="METHOD_NAME" value="addProductsToShoppingCartTest" />
+      <option name="PACKAGE_NAME" value="com.jainn.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.jainn.shopping.ShoppingCartTest" />
+      <option name="METHOD_NAME" value="addDifferentProductsToTheCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartTest.testAddSingleProductToShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shoppingcart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jainn.shopping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jainn.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.jainn.shopping.ShoppingCartTest" />
+      <option name="METHOD_NAME" value="testAddSingleProductToShoppingCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartTest.testCreateEmptyShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shoppingcart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jainn.shopping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jainn.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.jainn.shopping.ShoppingCartTest" />
+      <option name="METHOD_NAME" value="testCreateEmptyShoppingCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,9 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingCartServiceTest" />
-        <item itemvalue="JUnit.ShoppingCartServiceTest.addMultiProductsToShoppingCartTest" />
-        <item itemvalue="JUnit.ShoppingCartServiceTest.addProductsToShoppingCartTest" />
+        <item itemvalue="JUnit.ShoppingCartTest" />
+        <item itemvalue="JUnit.ShoppingCartTest.addDifferentProductsAndAppyOfferToTheCart" />
+        <item itemvalue="JUnit.ShoppingCartTest.addDifferentProductsToTheCart" />
+        <item itemvalue="JUnit.ShoppingCartTest.testAddSingleProductToShoppingCart" />
+        <item itemvalue="JUnit.ShoppingCartTest.testCreateEmptyShoppingCart" />
       </list>
     </recent_temporary>
   </component>
@@ -199,59 +292,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingCartServiceTest_addProductsToShoppingCartTest - 2019.03.02 at 15h 34m 55s.xml">
-      <configuration name="ShoppingCartServiceTest.addProductsToShoppingCartTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest_testAddSingleProductToShoppingCart - 2019.06.15 at 00h 35m 41s.xml">
+      <configuration name="ShoppingCartTest.testAddSingleProductToShoppingCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest - 2019.03.02 at 15h 35m 06s.xml">
-      <configuration name="ShoppingCartServiceTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 37m 40s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest_addProductsToShoppingCartTest - 2019.03.02 at 15h 59m 40s.xml">
-      <configuration name="ShoppingCartServiceTest.addProductsToShoppingCartTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 41m 23s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest - 2019.03.02 at 16h 00m 10s.xml">
-      <configuration name="ShoppingCartServiceTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 41m 52s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest_addMultiProductsToShoppingCartTest - 2019.03.02 at 16h 01m 42s.xml">
-      <configuration name="ShoppingCartServiceTest.addMultiProductsToShoppingCartTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest_addDifferentProductsToTheCart - 2019.06.15 at 00h 43m 13s.xml">
+      <configuration name="ShoppingCartTest.addDifferentProductsToTheCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest - 2019.03.02 at 16h 03m 34s.xml">
-      <configuration name="ShoppingCartServiceTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 43m 21s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest - 2019.03.02 at 16h 11m 16s.xml">
-      <configuration name="ShoppingCartServiceTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 55m 22s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest_addMultiProductsToShoppingCartTest - 2019.03.02 at 16h 20m 23s.xml">
-      <configuration name="ShoppingCartServiceTest.addMultiProductsToShoppingCartTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 57m 24s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest - 2019.03.02 at 16h 21m 21s.xml">
-      <configuration name="ShoppingCartServiceTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest_addDifferentProductsAndAppyOfferToTheCart - 2019.06.15 at 00h 59m 33s.xml">
+      <configuration name="ShoppingCartTest.addDifferentProductsAndAppyOfferToTheCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCartServiceTest - 2019.03.02 at 16h 22m 11s.xml">
-      <configuration name="ShoppingCartServiceTest" configurationId="JUnit" />
+    <history-entry file="ShoppingCartTest - 2019.06.15 at 00h 59m 55s.xml">
+      <configuration name="ShoppingCartTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32844576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32844576" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32844576" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,28 +355,46 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>temp%2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/model/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/service/ShoppingCartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -294,13 +405,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jainn/service/ShoppingCartServiceTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        <state relative-caret-position="15">
+          <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/model/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/model/CartOffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#313#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/constant/ApplicationConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/price/ProductPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/ShoppingCartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/IOffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/NoOffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/BuyXItemGetYItemFreeOffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jainn/shopping/ShoppingCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-2/junit-4.13-beta-2.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jainn/shopping/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
